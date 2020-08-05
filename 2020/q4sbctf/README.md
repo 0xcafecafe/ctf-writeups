@@ -14,33 +14,33 @@ Intentaré ser lo más sencillo y directo posible en el write-up.
 ## Retos explicados
 
 + Entry:
-  + [Roma](#roma)
-  + [uwu](#uwu)
+  + [Roma](#entry-roma)
+  + [uwu](#entry-uwu)
 + Misc:
-  + [Señal de auxilio](#senal-de-auxilio)
-  + [Viaje místico](#viaje-mistico)
+  + [Señal de auxilio](#misc-señal-de-auxilio)
+  + [Viaje místico](#misc-viaje-místico)
 + Esteganografía:
-  + [Hidden](#hidden)
-  + [Violín triste](#violin-triste)
-  + [Originale](#originale)
-  + [Sartaarap](#sartaarap)
+  + [Hidden](#esteganografía-hidden)
+  + [Violín triste](#esteganografía-violín-triste)
+  + [Originale](#esteganografía-originale)
+  + [Sartaarap](#esteganografía-sartaarap)
 + Criptografía:
-  + [Jueguemos](#jueguemos)
-  + [330](#r330)
-  + [El espejo](#el-espejo)
-  + [Terrible de Shoro](#shoro)
-  + [Ancient](#ancient)
+  + [Jueguemos](#criptografía-jueguemos)
+  + [330](#criptografía-r330)
+  + [El espejo](#criptografía-el-espejo)
+  + [Terrible de Shoro](#criptografía-terrible-de-shoro)
+  + [Ancient](#criptografía-ancient)
 + Web:
-  + [tnoF](#tnof)
-  + [Mapiemos](#mapiemos)
-  + [Enum](#enum)
-  + [Común](#comun)
-  + [Quién???](#quien)
-  + [Insistencia!!!](#insistencia)
+  + [tnoF](#web-tnof)
+  + [Mapiemos](#web-mapiemos)
+  + [Enum](#web-enum)
+  + [Común](#web-común)
+  + [Quién???](#web-quién)
+  + [Insistencia!!!](#web-insistencia)
 
 ## Resolución
 
-### Entry: Roma {#roma}
+### Entry: Roma
 > Ya debieras poder identificarlo, es uno de los más utilizados y simples..
 >
 > La bandera debe ir en el formato Q4SB{aqui_va_la_bandera}
@@ -58,7 +58,7 @@ Igual, parece que se trata de algún cifrado al estilo César; o sea, de rotaci�
 **flag: Q4SB\{AlCesarLoQueEsdelCesar\}**
 
 ---
-### Entry: uwu {#uwu}
+### Entry: uwu
 > ♥w♥
 >
 > by dplastico
@@ -72,7 +72,7 @@ Ejecutando `strings` sobre `uwu`, obtenemos la flag directamente:
 **flag: Q4\{dplAStic0_no_Sab3_r3v3rs3ar_uwu\}**
 
 ---
-### Misc: Señal de auxilio {#senal-de-auxilio}
+### Misc: Señal de auxilio
 > Se ha detectado una señal de auxilio en alta mar... podrás ayudar? Acuérdate que la bandera está en el formato Q4SB{Aqui_va_la_bandera}
 >
 > by n3v1l
@@ -86,7 +86,7 @@ El título del reto (señal de auxilio) me orienta a clave Morse o algo similar.
 **flag: Q4SB\{V1EJ1T0P3R0P0D3R0S0\}**
 
 ---
-### Misc: Viaje místico {#viaje-mistico}
+### Misc: Viaje místico
 > Este es un viaje mistico realizado con hongos.. podrás soportarlo? La Bandera está en formato Q4SB{aqui_va_la_flag}
 >
 > by n3v1l
@@ -108,7 +108,7 @@ Usando un [interpretador de Malbolge online](http://malbolge.doleczek.pl/), se o
 **flag: Q4SB\{l4_m3d14_v0l4!!!\}**
 
 ---
-### Esteganografía: Hidden {#hidden}
+### Esteganografía: Hidden
 > Está todo oscuro, no ves nada... encontrarás lo oculto?
 >
 > La Bandera está en formato Q4SB{aqui_va_la_flag}
@@ -130,7 +130,7 @@ Usando la forense de imágenes en línea [Forensically](https://29a.ch/photo-for
 **flag: Q4SB\{c4s1_n0_s3_v314!!\}**
 
 ---
-### Esteganografía: Violín triste {#violin-triste}
+### Esteganografía: Violín triste
 > El violin triste algo oculta... escuchalo, perdón, encuéntralo!
 >
 > by n3v1l
@@ -142,7 +142,7 @@ Ejecutando `file` sobre el archivo del reto, vemos que es un archivo WAV en un c
 **flag: Q4SB\{V4m0s_m3j0r4nd0!\}**
 
 ---
-### Esteganografía: Originale {#originale}
+### Esteganografía: Originale
 > Cuánto sabes de italiano? 
 >
 > La bandera está en el formato Q4SB{aqui_va_la_flag} 
@@ -154,7 +154,7 @@ En este reto, no hay que usar herramientas. Al abrir el archivo de texto que nos
 **flag: Q4SB\{c4s1nolap1ll0\}**
 
 ---
-### Esteganografía: Sartaarap {#sartaarap}
+### Esteganografía: Sartaarap
 > Vaporweando un rato
 >
 > by dplastico
@@ -178,7 +178,7 @@ Al escuchar el MP3, pareciese que estuviese al revés, como lo indica el título
 **flag: Q4SB\{dificilescantarlaflag\}**
 
 ---
-### Criptografía: Jueguemos {#jueguemos}
+### Criptografía: Jueguemos
 > Estás seguro que puedes identificar las distintas codificaciones? 
 >
 > Jueguemos.. 
@@ -202,7 +202,7 @@ Por las características del texto resultante, parece base85. Usando otra vez `C
 **flag: Q4SB\{4lg0_3st4m0s_4pr3nd13nd0\}**
 
 ---
-### Criptografía: 330 {#r330}
+### Criptografía: 330
 > MNEFM3C2I5LHUSKHKJWGGMSOOBNG4STIMNUUE42ZKNBG2YSHIZXFA6KCOVRHSQTMMJXFE4C2K42W WYTZIJ2FUU2CONMVGQTULFLTK23CPFBHIYKTIJUFS3SWNQFGER2FONEUONLWJFDVM5LEI5WGYYTN KJ3EYQ2CNZNFONLMMNWUM43CK5LHKZCHKVTVUWCONJRW23DJLJJUEMDCGJJHMSKHKZ2USRZRNBSV QVT2LEZVM42ZLBGWQCSJIZCTAVJQJI3U42SZGFHEISLXJVCESMCNNJTXOTKEM4YE26SBO5HVIWJT JZ5GQOKDM46T2CQ=
 
 No hay texto en este reto. Por las características del código dado, parece base32. Usaremos `CyberChef` para decodificar:
@@ -226,7 +226,7 @@ Escogiendo las salidas ofrecidas, se obtiene la flag.
 **flag: Q4SB\{NOKIACHATTHEWORST\}**
 
 ---
-### Criptografía: El espejo {#el-espejo}
+### Criptografía: El espejo
 > Las apariencias pueden ser engañosas... lograrás descifrarlo? Es simple, quizás... La bandera debe ir en el formato Q4SB{aqui_va_la_bandera}
 >
 > HV EVRZ NZH HRNKOV VHGV XRUIZWLI KLI OL GZMGL GV TZMZHGV OZ UOZT JFV WVYV RI ZWVMGIL VHGVXRUIZWLIVHSVYIVL
@@ -242,7 +242,7 @@ Aplicando ese cifrado al texto del reto, se obtiene:
 **flag: Q4SB\{ESTECIFRADORESHEBREO\}**
 
 ---
-### Criptografía: TERRIBLE DE SHORO {#shoro}
+### Criptografía: TERRIBLE DE SHORO
 > SIEMPRE GRITANDO EL TERRIBLE DE SHORO PERO NO SE LE ENTIENDE, PUEDES DESENCRIPTARLO? Acuérdate que la bandera se sube en el formato Q4SB{BANDERA_AQUI}
 >
 > ====== MENSAJE ENCRIPTADO DEL SHORO AHORA=====
@@ -264,7 +264,7 @@ Volviendo a usar la herramienta `CyberChef` con la opción 'XOR Brute Force', se
 **flag: Q4SB\{T0D03ST03SL4B4ND3R4Y0S4B14D3X0R\}**
 
 ---
-### Criptografía: Ancient {#ancient}
+### Criptografía: Ancient
 > Se encontró esta piedra en algún lugar del mundo... claramente tiene un mensaje... puedes descifrarlo?
 >
 > Acuérdate que la bandera está en el formato Q4SB{Aqui_va_la_bandera}
@@ -286,7 +286,7 @@ Cada número es la representación decimal de un caracter siguiendo la tabla ASC
 **flag: Q4SB\{H4CK_TH3_PL4N3T\}**
 
 ---
-### Web: tnoF {#tnof}
+### Web: tnoF
 > A disfrutar este cumbion !!!!
 >
 > http://q4sbctf.duckdns.org:8080/
@@ -298,7 +298,7 @@ La flag está en el código fuente de la página web:
 **flag: Q4SB\{k_imp0rT4nt3_3s_l33r_3l_c0d1g0\}**
 
 ---
-### Web: Mapiemos {#mapiemos}
+### Web: Mapiemos
 > No te voy a dar un pista....jojojojo
 >
 > http://q4sbctf.duckdns.org:8080/
@@ -310,7 +310,7 @@ Revisar el archivo 'robots.txt'. El primer base64 es la flag:
 **flag: Q4SB\{base64_n0_v4_3ncr1pt4d0\}**
 
 ---
-### Web: Enum {#enum}
+### Web: Enum
 > Qué importante es la enumeración
 >
 > http://q4sbctf.duckdns.org:8080/
@@ -322,7 +322,7 @@ Es el otro base64 dentro de 'robots.txt':
 **flag: Q4SB\{t0ma_tu_sucul3nt4_flag\}**
 
 ---
-### Web: Común {#comun}
+### Web: Común
 > comun .... :) 
 >
 > http://q4sbctf.duckdns.org:8080/
@@ -338,7 +338,7 @@ Haciendo la consulta vía 'GET', se obtiene la flag:
 **flag: Q4SB\{j0j0j0_0cup4st3_un_d1cc1onar10_muy_ut1l\}**
 
 ---
-### Web: Quien??? {#quien}
+### Web: Quién???
 > En la enumeracion anterior vas a encontrar cosas muy utiles.
 >
 > http://q4sbctf.duckdns.org:8080/
@@ -354,7 +354,7 @@ Haciendo la consulta vía 'GET', se obtiene la flag:
 **flag: Q4SB\{4_v3c3s_l0s_CTF_t13n3n_muc0s_ra4bb1t_h0l3_qu3_su3rt3_qu3_3st3_n0\}**
 
 ---
-### Web: Insistencia!! {#insistencia}
+### Web: Insistencia!!
 > Si ya encontraste algo, se perseverante
 >
 > http://q4sbctf.duckdns.org:8080/
